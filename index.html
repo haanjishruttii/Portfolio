@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css" >
+    <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    
+
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <dic class="main">
+            <h1 class="headings">I AM <br>SHRUTI JAISWAL</h1>
+            <button class="btn">
+                Hire Me
+            </button>
+        </dic>
+    </section>
+
+    <section id="about">
+        <h1 class="headings">ABOUT ME</h1>
+        <div id="pic">
+            <img src="images/Cover.jpg" alt="">
+            <div id="intro">
+                <h2>SHRUTI JAISWAL</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi recusandae vero, aliquam assumenda ducimus, hic ut provident amet sequi nisi aut quos praesentium dolore veniam qui. Impedit facilis rem molestiae sint vel asperiores fugiat, cupiditate nemo earum praesentium consequuntur soluta similique exercitationem eligendi aliquam neque iure quisquam quo dolorem ea laborum? Laboriosam mollitia harum facere corrupti, consequuntur possimus. Optio nam vitae, delectus quaerat quia debitis molestias eos, earum voluptatum cupiditate nihil fugit atque reprehenderit temporibus ullam facilis cum eum modi at fuga. Blanditiis reiciendis nostrum dolor, eaque aliquid repudiandae recusandae! Libero deserunt, impedit explicabo a natus saepe sapiente! Suscipit, nesciunt? <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi debitis veritatis itaque beatae non explicabo unde autem porro aspernatur placeat architecto maxime, a tenetur et asperiores alias incidunt cum minus corrupti assumenda dolores qui, dolorum enim? Cumque rem vitae, inventore iure aperiam tenetur veritatis iste sit tempore odit doloribus similique. <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae beatae inventore totam ratione eum minima earum pariatur ut temporibus. Aliquam mollitia deleniti qui facere cum laudantium nesciunt, cumque doloremque nam, placeat fugit quibusdam rem deserunt voluptatum maxime consequuntur dolorum sit inventore voluptas explicabo fuga obcaecati, totam magnam eius! Nam optio aut voluptatem reprehenderit? Nemo natus maxime neque reiciendis, assumenda, magni perferendis odit architecto est dolor voluptatibus reprehenderit. Aspernatur, qui recusandae. </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h1 class="headings">PORTFOLIO</h1>
+        <div data-aos="zoom-out-up" class="gallary">
+            <img src="images/laptop.jpeg" alt="">
+            <img src="images/img1.jpeg" alt="">
+            <img src="images/img2.jpeg" alt="">
+            <img src="images/img7.jpeg" alt="">
+            <img src="images/img6.jpeg" alt="">
+            <img src="images/img4.jpeg" alt="">
+        </div>
+    </section>
+
+    <section id="services">
+        <h1 class="headings">SERVICES</h1>
+        <div class="row">
+            <div class="box">
+                <img src="images/paintbrush.jpeg" alt="">
+                <h1 class="headings">Website Design</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae voluptate culpa debitis asperiores laboriosam quos, aperiam eum corporis, nulla quae beatae eveniet excepturi perspiciatis, ex unde aspernatur quibusdam natus illo ad distinctio nam soluta sequi. Rerum iusto cum veniam iste eius natus quo, vel ut laudantium autem, earum obcaecati sequi.</p>
+            </div>
+            <div class="box">
+                <img src="images/ux.jpeg" alt="">
+                <h1 class="headings">UX / UI <br> Design</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae voluptate culpa debitis asperiores laboriosam quos, aperiam eum corporis, nulla quae beatae eveniet excepturi perspiciatis, ex unde aspernatur quibusdam natus illo ad distinctio nam soluta sequi. Rerum iusto cum veniam iste eius natus quo, vel ut laudantium autem, earum obcaecati sequi.</p>
+            </div>
+            <div class="box">
+                <img src="images/marketing.jpeg" alt="">
+                <h1 class="headings">Digital Marketing</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae voluptate culpa debitis asperiores laboriosam quos, aperiam eum corporis, nulla quae beatae eveniet excepturi perspiciatis, ex unde aspernatur quibusdam natus illo ad distinctio nam soluta sequi. Rerum iusto cum veniam iste eius natus quo, vel ut laudantium autem, earum obcaecati sequi.</p>
+            </div>
+        </div>
+
+</section>
+
+<section id="contact">
+    <h1 class="headings">CONTACT</h1>
+    <form action="" class="form">
+        <input type="text" name="name" class="input" placeholder="Enter your name">
+        <input type="email" name="email" class="input" placeholder="Enter your email">
+        <textarea name="msg" id="msg" cols="30" rows="10"
+        aria-placeholder="Enter your message"></textarea>
+        <input type="submit" value="SEND" id="send">
+    </form>
+</section>
+    
+<script>
+    AOS.init();
+  </script>
+</body>
+</html>
