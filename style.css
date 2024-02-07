@@ -149,7 +149,7 @@ body , html{
     display:flex;
     flex-direction: column;
     padding: 20px;
-    box-shadow: 0px 0px 20px 10px pink inset;
+    box-shadow: 0px 0px 20px 10px rgb(23,75,107) inset;
 }
 .row{
     display: flex;
@@ -168,7 +168,7 @@ body , html{
     text-align: justify;
     padding: 10px;
     border-radius: 15px;
-    background: linear-gradient(to top, rgb(110, 110, 177) 50%, rgb(241, 174, 174) 50%);
+    background: linear-gradient(to top, rgb(23, 75, 107) 50%, rgb(81, 141, 179) 50%);
     background-size: 100% 200%;
     transition: all .8s;
 }
@@ -176,7 +176,7 @@ body , html{
     background-position: left bottom;
     color: white;
     border: none;
-    box-shadow: 0 0 20px rgb(45,45,255);
+    box-shadow: 0 0 20px rgb(81, 141, 179);
 }
 .box img{
     width: 80px;
